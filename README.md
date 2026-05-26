@@ -10,7 +10,7 @@
 | `main.gd` | 主逻辑脚本，涵盖全部游戏逻辑 |
 
 ## 场景节点层级
-
+···
 Main (Control) — 全屏根节点  
 ├── DifficultyMenu (PopupMenu) — 右键菜单（难度/功能）  
 │    └── DifficultySubmenu (PopupMenu) — 子菜单（初级/中级/高级）  
@@ -21,7 +21,7 @@ Main (Control) — 全屏根节点
     │    └── TimeLabel — 计时器 ⏱  
     └── Grid (GridContainer) — 网格按钮区（居中）  
         └── 9×9 / 16×16 / 30×16 按钮  
-
+···
 ## 游戏操作
 
 | 操作 | 效果 |
