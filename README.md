@@ -13,12 +13,12 @@
 
 Main (Control) — 全屏根节点  
 ├── DifficultyMenu (PopupMenu) — 右键菜单（难度/功能）  
-│   └── DifficultySubmenu (PopupMenu) — 子菜单（初级/中级/高级）  
+│    └── DifficultySubmenu (PopupMenu) — 子菜单（初级/中级/高级）  
 └── VBoxContainer — 整体垂直布局（居中）  
     ├── HBoxContainer — 顶部横条（居中）  
-    │   ├── MineLabel — 地雷计数 💣  
-    │   ├── ResetButton — 重置按钮 😊  
-    │   └── TimeLabel — 计时器 ⏱  
+    │    ├── MineLabel — 地雷计数 💣  
+    │    ├── ResetButton — 重置按钮 😊  
+    │    └── TimeLabel — 计时器 ⏱  
     └── Grid (GridContainer) — 网格按钮区（居中）  
         └── 9×9 / 16×16 / 30×16 按钮  
 
